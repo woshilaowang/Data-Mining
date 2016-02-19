@@ -1,0 +1,14 @@
+package DataMing_KNN;
+/**
+ * @author wang
+ *
+ */
+public class Client {
+public static void main(String[] args) {
+	String trainDataPath = " ";
+	String testDataPath = " ";
+	
+	KNN tool =new KNN(testDataPath, testDataPath);
+	tool.knnCompute(3);
+}
+}
